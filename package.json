@@ -1,19 +1,20 @@
 {
-  "private": true,
-  "scripts": {
-    "dev": "next dev --turbo",
-    "build": "next build",
-    "start": "next start"
-  },
-  "dependencies": {
-    "@types/node": "20.10.6",
-    "@types/react": "18.2.46",
-    "@types/react-dom": "18.2.18",
-    "next": "latest",
-    "postgres": "^3.4.3",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "typescript": "5.3.3",
-    "zod": "^3.22.4"
-  }
+	"private": true,
+	"scripts": {
+		"dev": "next dev --turbo",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@types/node": "20.10.6",
+		"@types/react": "18.2.36",
+		"@types/react-dom": "18.2.13",
+		"babel-plugin-react-compiler": "^0.0.0-experimental-938cd9a-20240601",
+		"next": "^15.0.0-rc.0",
+		"postgres": "^3.4.3",
+		"react": "^19.0.0-rc-6d3110b4d9-20240531",
+		"react-dom": "^19.0.0-rc-6d3110b4d9-20240531",
+		"typescript": "5.3.3",
+		"zod": "^3.22.4"
+	}
 }
